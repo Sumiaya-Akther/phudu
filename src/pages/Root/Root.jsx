@@ -5,9 +5,9 @@ import Footer from '../../components/Footer/Footer';
 
 const Root = () => {
     return (
-        <div>
+        <div className='bg-[#efefef]'>
             <Navbar></Navbar>
-            <div className='w-11/12 mx-auto min-h-[calc(100vh-435px)] p-5 my-6'>
+            <div className='w-11/12 mx-auto min-h-[calc(100vh-435px)]  p-5 my-6'>
             <Outlet></Outlet>
             </div>
             
