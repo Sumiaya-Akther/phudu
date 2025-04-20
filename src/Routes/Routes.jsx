@@ -16,6 +16,7 @@ export const router = createBrowserRouter([
             index: true,
             path: "/",
             Component: Home,
+            loader:()=>fetch('../doctorsData.json'),
             hydrateFallbackElement: <p>loading.....</p>
         }
       ]
