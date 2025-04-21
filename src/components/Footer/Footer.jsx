@@ -4,10 +4,10 @@ import logo from '../../assets/logo.png';
 
 const Footer = () => {
     return (
-        <footer className="footer footer-horizontal footer-center bg-base-200 text-base-content rounded p-10">
+        <footer className="footer footer-horizontal max-w-full footer-center bg-base-200 text-base-content rounded p-10">
             <h1 className="btn btn-ghost text-xl flex items-center"><img className='w-8' src={logo} alt="" />  Phudu</h1>
-            <nav className="grid grid-flow-col gap-4">
-                <ul className="menu menu-horizontal px-1 text-gray-600 space-x-5">
+            <nav className="grid grid-flow-col md:gap-4">
+                <ul className="menu menu-horizontal px-1 text-gray-600 md:space-x-5">
                     <li>
                         <NavLink
                             to="/"
@@ -50,7 +50,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="border-1 border-gray-300 w-7xl mx-auto"></div>
+            <div className="border-1 border-gray-300 lg:w-full mx-auto"></div>
             <nav>
                 <div className="grid grid-flow-col gap-4">
                     <a className='text-blue-400' href='https://x.com/'>
