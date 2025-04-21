@@ -13,7 +13,7 @@ const Banner = () => {
                 <input className='w-1/3 py-1 px-3 rounded-2xl bg-white border border-gray-300 shadow-md focus:outline-none focus:shadow-outline' type="text" placeholder='Search any doctor...' />
                 <button className="btn  btn-primary p-3 rounded-4xl">Search Now</button>
                 </form>
-                <div className='flex flex-col md:flex-row gap-3 mt-8'>
+                <div className='flex flex-col lg:flex-row gap-3 mt-8'>
                     <img className='rounded-2xl w-auto' src={bannerImg} alt="" />
                     <img className='rounded-2xl w-auto' src={bannerImg} alt="" />
                 </div>
