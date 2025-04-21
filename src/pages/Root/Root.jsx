@@ -17,11 +17,11 @@ const Root = () => {
           </div>
         ) : (
           <>
-            <Navbar />
+            <Navbar></Navbar>
             <div className="w-11/12 mx-auto min-h-[calc(100vh-435px)] p-5 my-6">
-              <Outlet />
+              <Outlet></Outlet>
             </div>
-            <Footer />
+            <Footer></Footer>
           </>
         )}
       </div>

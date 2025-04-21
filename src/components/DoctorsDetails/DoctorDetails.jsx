@@ -1,14 +1,21 @@
 import React from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { RiRegisteredLine } from "react-icons/ri";
+import { addItemToCartlocalStorage } from '../../pages/Utilities';
 
 const DoctorDetails = () => {
     
     const { id } = useParams();
-    //const doctorId = parseInt(id);
+    //const doctorId = parseInt(id);                            
     const data = useLoaderData();
     const singleDoctor = data.find(doctor => doctor.registration_number === id);
-    const {name, education, speciality, experience, availability, registration_number, designation, workplace, fee, image} = singleDoctor;
+    const {name, education, speciality, availability, registration_number, workplace, fee, image} = singleDoctor || {};
+
+    const handleBooking=(id) =>{
+        addItemToCartlocalStorage(id);
+     }
+
+
     return (
         <div>
             <div className='bg-white rounded-2xl p-10 text-center my-5'>
@@ -29,13 +36,13 @@ const DoctorDetails = () => {
                         <RiRegisteredLine /> Reg No: {registration_number}
                      </p>
                      <div className='border-1 border-dashed border-gray-300 '></div>
-                     <p className='text-black font-semibold text-[18px] flex gap-2 items-center'>Availability :
+                     <p className='text-black font-semibold text-[18px] flex flex-col md:flex-row gap-2 items-center'>Availability :
                      {
                         availability.map((availability, index) => 
                             <button key={availability.id || index} className="btn btn-sm btn-outline rounded-3xl btn-warning">{availability}</button>)
                     }
                      </p>
-                     <p className='text-blue-700 flex gap-2'><span className='text-black font-semibold text-[18px]'>Consultation Fee: </span> {fee}</p>
+                     <p className='text-blue-700 flex flex-col md:flex-row gap-2'><span className='text-black font-semibold text-[18px]'>Consultation Fee: </span> {fee}</p>
                 </div>   
             </div>
             <div className='bg-white rounded-2xl p-10  my-5'>
@@ -46,9 +53,9 @@ const DoctorDetails = () => {
                     <button className="btn btn-outline btn-sm rounded-4xl btn-success">Doctor Available Today</button>
                 </div>
                 <div className='border-1 border-gray-300 mb-4'></div>
-                <button className="btn btn-outline btn-warning rounded-4xl btn-sm">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</button>
+                <button className="btn btn-outline btn-warning rounded-4xl btn-sm overflow-hidden md:overflow-none">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</button>
                 <div className='flex justify-center my-6'>
-                <button className="btn btn-primary rounded-4xl w-full">Book Appointment Now</button>
+                <button onClick={()=>handleBooking(id)} className="btn btn-primary rounded-4xl w-full">Book Appointment Now</button>
                 </div>
             </div>
             
