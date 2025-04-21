@@ -17,7 +17,6 @@ const Banner = () => {
                     <img className='rounded-2xl w-auto' src={bannerImg} alt="" />
                     <img className='rounded-2xl w-auto' src={bannerImg} alt="" />
                 </div>
-               
             </div>
         </div>
     );
