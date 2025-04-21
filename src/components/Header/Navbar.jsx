@@ -26,7 +26,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/listedBooks"
+                                    to="/myBookings"
                                     className={({ isActive }) =>
                                         isActive ? "text-cyan-900 font-bold border-1 border-cyan-900 p-2 rounded" : ""
                                     }
@@ -73,7 +73,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/listedBooks"
+                                to="/myBookings"
                                 className={({ isActive }) =>
                                     isActive ? "text-cyan-900 font-bold border-b-2 border-cyan-900 p-2" : ""
                                 }

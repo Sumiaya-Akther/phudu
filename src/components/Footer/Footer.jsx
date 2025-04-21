@@ -20,7 +20,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/listedBooks"
+                            to="/myBookings"
                             className={({ isActive }) =>
                                 isActive ? "text-cyan-900 font-bold border-b-2 border-cyan-900 p-2" : ""
                             }
