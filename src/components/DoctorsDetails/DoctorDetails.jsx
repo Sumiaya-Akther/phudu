@@ -36,8 +36,22 @@ const DoctorDetails = () => {
                     }
                      </p>
                      <p className='text-blue-700 flex gap-2'><span className='text-black font-semibold text-[18px]'>Consultation Fee: </span> {fee}</p>
+                </div>   
+            </div>
+            <div className='bg-white rounded-2xl p-10  my-5'>
+                <h1 className='font-bold text-2xl text-center mb-3'>Book an Appointment</h1>
+                <div className='border-1 border-dashed border-gray-300 '></div>
+                <div className='flex justify-between py-4'>
+                    <p className='text-black font-semibold'>Availability</p>
+                    <button className="btn btn-outline btn-sm rounded-4xl btn-success">Doctor Available Today</button>
+                </div>
+                <div className='border-1 border-gray-300 mb-4'></div>
+                <button className="btn btn-outline btn-warning rounded-4xl btn-sm">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</button>
+                <div className='flex justify-center my-6'>
+                <button className="btn btn-primary rounded-4xl w-full">Book Appointment Now</button>
                 </div>
             </div>
+            
         </div>
     );
 };
