@@ -1,7 +1,8 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { RiRegisteredLine } from "react-icons/ri";
-import { addItemToCartlocalStorage } from '../../pages/Utilities';
+import { addItemToCartlocalStorage, getBookings } from '../../pages/Utilities';
+import toast from 'react-hot-toast';
 
 const DoctorDetails = () => {
     
@@ -11,10 +12,19 @@ const DoctorDetails = () => {
     const singleDoctor = data.find(doctor => doctor.registration_number === id);
     const {name, education, speciality, availability, registration_number, workplace, fee, image} = singleDoctor || {};
 
-    const handleBooking=(id) =>{
-        addItemToCartlocalStorage(id);
-     }
+    const [isBooked, setIsBooked] = useState(false);
 
+    useEffect(() => {
+      const existingBookings = getBookings();
+      if (existingBookings.includes(id)) {
+        setIsBooked(true);
+      }
+    }, [id]);
+  
+    const handleBooking = () => {
+      addItemToCartlocalStorage(id);
+      setIsBooked(true);
+    };
 
     return (
         <div>
@@ -55,7 +65,8 @@ const DoctorDetails = () => {
                 <div className='border-1 border-gray-300 mb-4'></div>
                 <button className="btn btn-outline btn-warning rounded-4xl btn-sm overflow-hidden md:overflow-none">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</button>
                 <div className='flex justify-center my-6'>
-                <button onClick={()=>handleBooking(id)} className="btn btn-primary rounded-4xl w-full">Book Appointment Now</button>
+                <button onClick={handleBooking}
+                 className={`btn btn-primary rounded-4xl w-full `}> {isBooked ? 'Already Booked' : 'Book Appointment Now'}</button>
                 </div>
             </div>
             
