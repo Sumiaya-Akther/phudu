@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router';
+import { Link, useLoaderData, useNavigate, useParams } from 'react-router';
 import { RiRegisteredLine } from "react-icons/ri";
 import { addItemToCartlocalStorage, getBookings } from '../../pages/Utilities';
 
@@ -8,10 +8,18 @@ const DoctorDetails = () => {
     const { id } = useParams();
     //const doctorId = parseInt(id);                            
     const data = useLoaderData();
-    const singleDoctor = data.find(doctor => doctor.registration_number === id);
-    const {name, education, speciality, availability, registration_number, workplace, fee, image} = singleDoctor || {};
+    const [singleDoctor, setSingleDoctor] = useState({});
+    const nevigate = useNavigate();
 
     const [isBooked, setIsBooked] = useState(false);
+
+    useEffect(()=>{
+        const doctor = data.find(doctor => doctor.registration_number === id);
+        setSingleDoctor(doctor);
+        if(!doctor) {
+          nevigate('/error');
+        }
+    },[]);
 
     useEffect(() => {
       const existingBookings = getBookings();
@@ -24,6 +32,7 @@ const DoctorDetails = () => {
       addItemToCartlocalStorage(id);
       setIsBooked(true);
     };
+    const {name, education, speciality, availability, registration_number, workplace, fee, image} = singleDoctor || {};
 
     return (
         <div>
@@ -47,7 +56,7 @@ const DoctorDetails = () => {
                      <div className='border-1 border-dashed border-gray-300 '></div>
                      <p className='text-black font-semibold text-[18px] flex flex-col md:flex-row gap-2 items-center'>Availability :
                      {
-                        availability.map((availability, index) => 
+                        availability?.map((availability, index) => 
                             <button key={availability.id || index} className="btn btn-sm btn-outline rounded-3xl btn-warning">{availability}</button>)
                     }
                      </p>
@@ -64,8 +73,10 @@ const DoctorDetails = () => {
                 <div className='border-1 border-gray-300 mb-4'></div>
                 <button className="btn btn-outline btn-warning rounded-4xl btn-sm overflow-hidden md:overflow-none">Due to high patient volume, we are currently accepting appointments for today only. We appreciate your understanding and cooperation.</button>
                 <div className='flex justify-center my-6'>
+                <Link to={"/myBookings"}>
                 <button onClick={handleBooking}
                  className={`btn btn-primary rounded-4xl w-full `}> {isBooked ? 'Already Booked' : 'Book Appointment Now'}</button>
+                </Link>
                 </div>
             </div>
             

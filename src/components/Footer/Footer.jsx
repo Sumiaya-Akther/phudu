@@ -30,7 +30,7 @@ const Footer = () => {
                     </li>
                     <li>
                         <NavLink
-                            to="/pageRead"
+                            to="/blogs"
                             className={({ isActive }) =>
                                 isActive ? "text-cyan-900 font-bold border-b-2 border-cyan-900 p-2" : ""
                             }

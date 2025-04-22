@@ -36,7 +36,7 @@ const Navbar = () => {
                             </li>
                             <li>
                                 <NavLink
-                                    to="/pageRead"
+                                    to="/blogs"
                                     className={({ isActive }) =>
                                         isActive ? "text-cyan-900 font-bold border-1 border-cyan-900 p-2 rounded" : ""
                                     }
@@ -83,7 +83,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <NavLink
-                                to="/pageRead"
+                                to="/blogs"
                                 className={({ isActive }) =>
                                     isActive ? "text-cyan-900 font-bold border-b-2 border-cyan-900 p-2" : ""
                                 }
