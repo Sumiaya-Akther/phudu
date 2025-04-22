@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import { RiRegisteredLine } from "react-icons/ri";
 import { addItemToCartlocalStorage, getBookings } from '../../pages/Utilities';
-import toast from 'react-hot-toast';
 
 const DoctorDetails = () => {
     
