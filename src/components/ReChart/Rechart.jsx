@@ -28,7 +28,7 @@ const Rechart = ({data}) => {
         <XAxis dataKey="name" />
         <YAxis />
         <Tooltip />
-        <Bar dataKey="fee2" shape={<TriangleBar />} label={{ position: "top" }}>
+        <Bar dataKey="fees" shape={<TriangleBar />} label={{ position: "top" }}>
           {data.map((entry, index) => (
             <Cell key={entry.id} fill={COLORS[index % COLORS.length]} />
           ))}

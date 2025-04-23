@@ -1,16 +1,16 @@
 [
     {
-      "name": "Dr. Ayesha Rahman",
+      "name": "Dr. Ariyan Rahman",
       "education": "MBBS, MD",
       "speciality": "General Medicine, DNB",
       "experience": "6 Years",
       "registration_number": "BD20231001",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "TMSS Medical College & Hospital, Dhaka",
       "fee": "500 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Sunday", "Monday", "Wednesday"],
       "image": "https://i.ibb.co.com/8npd4Xyj/Whats-App-Image-2025-04-21-at-1-33-06-AM.jpg",
-      "fee2": 500
+      "fees": 500
     },
     {
       "name": "Dr. Karim Hasan",
@@ -21,9 +21,9 @@
       "designation": "General Medicine Specialist",
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "300 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "image": "https://i.ibb.co.com/mp8Ncs5/Whats-App-Image-2025-04-21-at-1-32-15-AM.jpg",
-      "fee2": 300
+      "fees": 300
     },
     {
       "name": "Dr. Farzana Chowdhury",
@@ -32,11 +32,11 @@
       "experience": "5 Years",
       "registration_number": "BD20231003",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "Rafatullah Community Hospital, Khulna",
       "fee": "700 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Saturday", "Monday", "Thursday"],
       "image": "https://i.ibb.co.com/sGpCzwL/Whats-App-Image-2025-04-21-at-1-29-53-AM.jpg",
-      "fee2": 700
+      "fees": 700
     },
     {
       "name": "Dr. Tanvir Ahmed",
@@ -45,11 +45,11 @@
       "experience": "8 Years",
       "registration_number": "BD20231004",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": " Medical Collage, Barishal",
       "fee": "1100 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
       "image": "https://i.ibb.co.com/sdWKTYK2/Whats-App-Image-2025-04-21-at-1-27-44-AM-1.jpg",
-      "fee2": 1100
+      "fees": 1100
     },
     {
       "name": "Dr. Sabrina Karim",
@@ -58,11 +58,11 @@
       "experience": "6 Years",
       "registration_number": "BD20231005",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "600 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Sunday", "Monday", "Friday"],
       "image": "https://i.ibb.co.com/G4tGz9SS/Whats-App-Image-2025-04-21-at-1-40-52-AM.jpg",
-      "fee2": 600
+      "fees": 600
     },
     {
       "name": "Dr. Nusrat Jahan",
@@ -71,11 +71,11 @@
       "experience": "9 Years",
       "registration_number": "BD20231006",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "Khulna Medical College & Hospital, Khulna ",
       "fee": "800 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
       "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg",
-      "fee2": 800
+      "fees": 800
     },
     {
       "name": "Dr. Mohim Islam",
@@ -84,11 +84,11 @@
       "experience": "7 Years",
       "registration_number": "BD20231007",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "Bagerhat Medical College & Hospital, Khulna",
       "fee": "700 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
       "image": "https://i.ibb.co.com/xt3VJbXr/Whats-App-Image-2025-04-21-at-1-39-51-AM.jpg",
-      "fee2": 700
+      "fees": 700
     },
     {
       "name": "Dr. Tahmina Haque",
@@ -97,11 +97,11 @@
       "experience": "8 Years",
       "registration_number": "BD20231008",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "Noakhali Medical College & Hospital, Noakhali",
       "fee": "273 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Saturday", "Sunday", "Thursday"],
       "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg",
-      "fee2": 273
+      "fees": 273
     },
     {
       "name": "Dr.Anwar",
@@ -110,24 +110,24 @@
       "experience": "5 Years",
       "registration_number": "BD20231009",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "feni Medical College & Hospital, Feni",
       "fee": "1000 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Saturday", "Monday", "Thursday"],
       "image": "https://i.ibb.co.com/mVtBXjcB/Whats-App-Image-2025-04-21-at-1-27-44-AM.jpg",
-      "fee2": 1000
+      "fees": 1000
     },
     {
-      "name": "Dr. Marium Sultana",
+      "name": "Dr. Humayan Ahmad",
       "education": "MBBS, MD",
       "speciality": "General Medicine, DNB",
       "experience": "6 Years",
       "registration_number": "BD20231010",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "TMSS Medical College & Hospital, Chattagram",
       "fee": "1500 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Sunday", "Monday", "Friday"],
       "image": "https://i.ibb.co.com/sdWKTYK2/Whats-App-Image-2025-04-21-at-1-27-44-AM-1.jpg",
-      "fee2": 1500
+      "fees": 1500
     },
     {
       "name": "Dr. Zareen Akhter",
@@ -140,7 +140,7 @@
       "fee": "400 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
       "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg",
-      "fee2": 400
+      "fees": 400
     },
     {
       "name": "Dr. Humaira Kabir",
@@ -149,10 +149,10 @@
       "experience": "9 Years",
       "registration_number": "BD20231012",
       "designation": "General Medicine Specialist",
-      "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
+      "workplace": "Medical College & Hospital, Mohakhali",
       "fee": "550 Taka (incl VAT)",
-      "availability": ["Sunday", "Monday", "Thursday"],
+      "availability": ["Sunday", "Wednesday", "Thursday"],
       "image": "https://i.ibb.co.com/8npd4Xyj/Whats-App-Image-2025-04-21-at-1-33-06-AM.jpg",
-      "fee2": 550
+      "fees": 550
     }
   ]

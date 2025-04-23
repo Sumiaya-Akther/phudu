@@ -52,7 +52,7 @@ const Footer = () => {
                     </li>
                 </ul>
             </nav>
-            <div className="border-1 border-gray-300 lg:w-full mx-auto"></div>
+            <div className="border border-gray-300 w-60 lg:w-full mx-auto"></div>
             <nav>
                 <div className="grid grid-flow-col gap-4">
                     <Link className='text-blue-600' to={`https://x.com/`}>
