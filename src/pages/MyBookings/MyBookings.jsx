@@ -42,7 +42,7 @@ const MyBookings = () => {
                         </p>
                         <Link to="/">
                             <button className="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition mt-4">
-                                Back to Home
+                                Back to Home 
                             </button>
                         </Link>
                     </div>

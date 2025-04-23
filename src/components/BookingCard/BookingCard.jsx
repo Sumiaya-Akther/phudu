@@ -1,4 +1,5 @@
 import React from 'react';
+import Rechart from '../ReChart/Rechart';
 
 const BookingCard = ({bookedDoctors, cancelBookings}) => {
 //console.log(bookedDoctors);
@@ -8,15 +9,15 @@ const BookingCard = ({bookedDoctors, cancelBookings}) => {
 
         <div className='p-5 space-y-8'>
                         {/* Chart First */}
-                        {/* <div>
+                        <div>
                             <h2 className='text-2xl font-bold mb-4'>Appointment Overview</h2>
-                            <Rechart data={data}></Rechart>
-                        </div> */}
+                            <Rechart data={bookedDoctors}></Rechart>
+                        </div>
                         {/* Cancel Card Section */}
                         <div>
                             <div className='text-center'>
                             <h2 className='text-2xl font-bold mb-4'>My Today Appointments</h2>
-                            <p>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.</p>
+                            <p className='mb-6'>Our platform connects you with verified, experienced doctors across various specialties — all at your convenience.</p>
                             </div>
                             
                                 <div className='flex flex-col gap-5 space-y-5'>

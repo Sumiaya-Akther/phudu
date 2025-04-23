@@ -9,7 +9,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "500 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/8npd4Xyj/Whats-App-Image-2025-04-21-at-1-33-06-AM.jpg"
+      "image": "https://i.ibb.co.com/8npd4Xyj/Whats-App-Image-2025-04-21-at-1-33-06-AM.jpg",
+      "fee2": 500
     },
     {
       "name": "Dr. Karim Hasan",
@@ -21,7 +22,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "300 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/mp8Ncs5/Whats-App-Image-2025-04-21-at-1-32-15-AM.jpg"
+      "image": "https://i.ibb.co.com/mp8Ncs5/Whats-App-Image-2025-04-21-at-1-32-15-AM.jpg",
+      "fee2": 300
     },
     {
       "name": "Dr. Farzana Chowdhury",
@@ -33,7 +35,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "700 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/sGpCzwL/Whats-App-Image-2025-04-21-at-1-29-53-AM.jpg"
+      "image": "https://i.ibb.co.com/sGpCzwL/Whats-App-Image-2025-04-21-at-1-29-53-AM.jpg",
+      "fee2": 700
     },
     {
       "name": "Dr. Tanvir Ahmed",
@@ -45,7 +48,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "1100 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/sdWKTYK2/Whats-App-Image-2025-04-21-at-1-27-44-AM-1.jpg"
+      "image": "https://i.ibb.co.com/sdWKTYK2/Whats-App-Image-2025-04-21-at-1-27-44-AM-1.jpg",
+      "fee2": 1100
     },
     {
       "name": "Dr. Sabrina Karim",
@@ -57,7 +61,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "600 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/G4tGz9SS/Whats-App-Image-2025-04-21-at-1-40-52-AM.jpg"
+      "image": "https://i.ibb.co.com/G4tGz9SS/Whats-App-Image-2025-04-21-at-1-40-52-AM.jpg",
+      "fee2": 600
     },
     {
       "name": "Dr. Nusrat Jahan",
@@ -69,7 +74,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "800 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg"
+      "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg",
+      "fee2": 800
     },
     {
       "name": "Dr. Mohim Islam",
@@ -81,7 +87,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "700 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/xt3VJbXr/Whats-App-Image-2025-04-21-at-1-39-51-AM.jpg"
+      "image": "https://i.ibb.co.com/xt3VJbXr/Whats-App-Image-2025-04-21-at-1-39-51-AM.jpg",
+      "fee2": 700
     },
     {
       "name": "Dr. Tahmina Haque",
@@ -93,7 +100,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "273 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg"
+      "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg",
+      "fee2": 273
     },
     {
       "name": "Dr.Anwar",
@@ -105,7 +113,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "1000 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/mVtBXjcB/Whats-App-Image-2025-04-21-at-1-27-44-AM.jpg"
+      "image": "https://i.ibb.co.com/mVtBXjcB/Whats-App-Image-2025-04-21-at-1-27-44-AM.jpg",
+      "fee2": 1000
     },
     {
       "name": "Dr. Marium Sultana",
@@ -117,7 +126,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "1500 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/sdWKTYK2/Whats-App-Image-2025-04-21-at-1-27-44-AM-1.jpg"
+      "image": "https://i.ibb.co.com/sdWKTYK2/Whats-App-Image-2025-04-21-at-1-27-44-AM-1.jpg",
+      "fee2": 1500
     },
     {
       "name": "Dr. Zareen Akhter",
@@ -129,7 +139,8 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "400 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg"
+      "image": "https://i.ibb.co.com/Z6GXxKrx/Whats-App-Image-2025-04-21-at-1-42-13-AM.jpg",
+      "fee2": 400
     },
     {
       "name": "Dr. Humaira Kabir",
@@ -141,6 +152,7 @@
       "workplace": "TMSS Medical College & Rafatullah Community Hospital, Bogura",
       "fee": "550 Taka (incl VAT)",
       "availability": ["Sunday", "Monday", "Thursday"],
-      "image": "https://i.ibb.co.com/8npd4Xyj/Whats-App-Image-2025-04-21-at-1-33-06-AM.jpg"
+      "image": "https://i.ibb.co.com/8npd4Xyj/Whats-App-Image-2025-04-21-at-1-33-06-AM.jpg",
+      "fee2": 550
     }
   ]
