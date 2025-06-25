@@ -59,7 +59,7 @@ const Navbar = () => {
                     </div>
                     <h1 className="btn btn-ghost text-xl flex items-center"><img className='w-8' src={logo} alt="" />  Phudu</h1>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-end hidden lg:flex">
                     <ul className="menu menu-horizontal px-1 text-gray-600 space-x-5">
                         <li>
                             <NavLink
@@ -85,22 +85,13 @@ const Navbar = () => {
                             <NavLink
                                 to="/blogs"
                                 className={({ isActive }) =>
-                                    isActive ? "text-cyan-900 font-bold border-b-2 border-cyan-900 p-2" : ""
+                                    isActive ? "text-cyan-900 font-bold border-1 border-cyan-900 p-2 rounded" : ""
                                 }
                             >
                                 Blogs
                             </NavLink>
                         </li>
-                        <li>
-                            <NavLink
-                                to="/pageRead"
-                                className={({ isActive }) =>
-                                    isActive ? "text-cyan-900 font-bold border-b-2 border-cyan-900 p-2" : ""
-                                }
-                            >
-                                Contact Us
-                            </NavLink>
-                        </li>
+                        <li></li>
                     </ul>
                 </div>
                 <div className="navbar-end">
